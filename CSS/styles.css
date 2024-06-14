@@ -1,0 +1,126 @@
+/* Estilos para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+header {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(11, 230, 110, 1) 33%, rgba(19, 190, 224, 1) 95%);
+}
+
+nav {
+
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Estilos para la sección principal */
+
+
+#seccion1 {
+    position: absolute;
+    right: 0%;
+    width: 65%;
+    height: 44%;
+    background: linear-gradient(86deg, rgba(2, 0, 36, 1) 0%, rgba(18, 252, 155, 1) 43%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    background-position: 0% 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#seccion1 h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+#seccion1 p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+/* Estilos para la sección lateral */
+#sidebar {
+    width: 25%;
+    background: linear-gradient(86deg, rgba(2, 0, 36, 1) 0%, rgba(18, 252, 124, 1) 4%, rgba(0, 212, 255, 1) 42%);
+    padding: 2em;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 2em;
+}
+
+#sidebar form {
+    margin-bottom: 2em;
+}
+
+#sidebar label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#sidebar input[type="text"],
+#sidebar input[type="email"] {
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+#sidebar input[type="submit"] {
+    width: 100%;
+    height: 2.5em;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#sidebar input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(86deg, rgba(2, 0, 36, 1) 0%, rgba(18, 252, 124, 1) 14%, rgba(4, 142, 170, 1) 95%);
+
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
